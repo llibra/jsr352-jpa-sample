@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job id="job" version="1.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee">
+  <step id="step">
+    <chunk>
+      <reader ref="com.gmail.libra.learn.Reader"/>
+      <writer ref="com.gmail.libra.learn.Writer"/>
+      <processor ref="com.gmail.libra.learn.Processor"/>
+    </chunk>
+    <end on="COMPLETED"/>
+  </step>
+</job>
